@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "jekyll github 연동하기"
 date:   2019-05-20 00:22:33 +0900
 categories: jekyll update
 ---
