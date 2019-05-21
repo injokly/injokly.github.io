@@ -53,21 +53,3 @@ https://injokly.github.io 로 접속하면 확인 가능
 _config.yml 에서 타이틀, 내용 이메일 등등 수정 가능
 
 블로그의 글은 _posts 폴더에 작성하며 아래와 같이 반드시 YYYY-MM-DD-제목.md 의 형식으로 파일 이름을 지정해야함
-
-
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
