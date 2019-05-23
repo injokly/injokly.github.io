@@ -1,0 +1,45 @@
+---
+layout: post
+title:  "docker"
+date:   2019-05-23 00:22:33 +0900
+categories: jekyll update
+---
+docker
+
+$ docker images //docker image 리스트 노출
+$ docker ps -a 
+$ docker rm ’NAMES’ 	//해당 docker 이미지 삭제
+$ docker run --name helloWorld hello-world
+
+$ docker ps -a -q -f status=exited
+$ docker rm $(docker ps -a -q -f status=exited)
+$ docker rmi hello-world
+
+——————————————
+도커로 web app 돌리기 
+
+$ docker pull ibmcom/kitura-ubuntu
+$ docker run ibmcom/kitura-ubuntu
+돌려도 localhost:8080으로 접속 안됨 (host system에서 port 연결 해줘야함)
+
+$ docker rm $(docker stop $(docker ps -q)) //**주의** 
+This command stops and removes all running containers. 
+
+$ docker run -p 80:8080 --name kitura -d ibmcom/kitura-ubuntu //호스트의 80 port를 컨테이너 8080포트로 연결
+-> http://localhost:80 으로 접속가능
+
+$ docker stop kitura // 스탑
+
+——————————————
+ 
+synology docker 세팅
+
+ssh 로 터미널 접속
+$ sudo su - 		//root 로 접속
+
+
+
+
+참고
+
+https://www.raywenderlich.com/9159-docker-on-macos-getting-started
