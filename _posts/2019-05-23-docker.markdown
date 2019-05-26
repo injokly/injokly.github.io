@@ -37,6 +37,8 @@ synology docker 세팅
 ssh 로 터미널 접속
 $ sudo su - 		//root 로 접속
 
+pull 레지스트리
+이미지 실행 -> 고급설정
 
 
 

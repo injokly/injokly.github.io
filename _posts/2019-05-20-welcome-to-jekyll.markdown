@@ -12,7 +12,7 @@ git commit 추가 **
 
 Jekyll also offers powerful support for code snippets:
 
-{% highlight ruby %}
+{% highlight ruby %}gg
 def print_hi(name)
   puts "Hi, #{name}"
 end
