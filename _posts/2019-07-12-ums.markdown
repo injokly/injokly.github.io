@@ -1,9 +1,11 @@
 ----
 layout: post
-title:  "NAS 에서 UMS 보내기"
+title:  "NAS 에서 Telegram 보내기"
 date:   2019-07-12 18:22:33 +0900
 categories: jekyll update
 ---
 
-Synology Nas 에서 사용자에게 UMS 보내기
+Synology Nas 에서 사용자에게 Telegram 보내기
 
+제어판 > 알림 > SMS 추가
+https://api.telegram.org/bot'APIKEY'/sendmessage?chat_id=""&user=1&pass=2&phone=3&text=Hello World
