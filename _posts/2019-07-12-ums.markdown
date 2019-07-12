@@ -1,0 +1,9 @@
+----
+layout: post
+title:  "NAS 에서 UMS 보내기"
+date:   2019-07-12 18:22:33 +0900
+categories: jekyll update
+---
+
+Synology Nas 에서 사용자에게 UMS 보내기
+
